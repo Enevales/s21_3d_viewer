@@ -11,21 +11,21 @@
 #define DIM 3 // dimension 
 
 typedef struct vertex_t {
-  unsigned int x;
-  unsigned int y;
-  unsigned int z;
+  int x;
+  int y;
+  int z;
 }vertex;
 
 typedef struct polygon_t {
-  int *vertices;
-  int count_edges;
+  unsigned int count_edges;
+  int vertices[];
 }polygon;
 
 typedef struct mesh_t {
-  int count_vertices;
-  int count_polygons;
-  vertex * vertices;
-  polygon*polygons;
+  unsigned int count_vertices;
+  unsigned int count_polygons;
+  vertex *vertices;
+  polygon *polygons;
 }mesh;
 
 #endif  // CORE_H
