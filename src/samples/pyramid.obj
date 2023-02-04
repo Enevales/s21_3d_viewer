@@ -1,0 +1,15 @@
+# Blender v2.83.2 OBJ File: ''
+# www.blender.org
+mtllib untitled.mtl
+o Cone_Cone.002
+v 0.000000 -1.000000 -1.000000
+v 0.866025 -1.000000 0.500000
+v -0.866025 -1.000000 0.500000
+v 0.000000 1.000000 0.000000
+
+usemtl None
+s off
+f 1 4 2
+f 2 4 3
+f 3 4 1
+f 1 2 3
